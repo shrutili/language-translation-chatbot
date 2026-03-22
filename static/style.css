@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient(135deg, #1f2937, #111827);
+    color: white;
+}
+
+/* Containers */
+.container {
+    width: 380px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* Login */
+.login-box {
+    background: #374151;
+}
+
+/* Register (different color) */
+.register-box {
+    background: linear-gradient(135deg, #4b5563, #6b7280);
+}
+
+/* Dashboard */
+.dashboard-box {
+    background: #374151;
+}
+
+/* Headings */
+h1 {
+    margin-bottom: 10px;
+    font-size: 26px;
+}
+
+/* Inputs */
+input, select, button {
+    width: 95%;
+    padding: 10px;
+    margin: 6px;
+    border-radius: 6px;
+    border: none;
+}
+
+/* Button */
+button {
+    background: #6b7280;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #9ca3af;
+}
+
+/* Chatbox */
+.chatbox {
+    height: 300px;
+    overflow-y: scroll;
+    background: #111827;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+}
+
+/* Links */
+a {
+    color: #9ca3af;
+}
